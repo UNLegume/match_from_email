@@ -12,6 +12,20 @@ relabel.py             同一メールの重複を排除してラベル付与
 retry_labels.py        自動処理で失敗したケースを段階的検索で補正
 ```
 
+## 候補者プロフィール
+
+`match_jobs.py` 内の `RESUME` に定義された候補者情報をもとにマッチングを行います。
+
+- **経験**: Android アプリ開発 6年
+- **コアスキル**: Kotlin, Java, Android, Jetpack Compose, Room, Retrofit, Android SDK, Spring Boot
+- **サブスキル**: Swift, KARTE, New Relic, Google Analytics, microCMS, Oracle, SQLite
+- **ツール**: GitHub, Jira, Confluence, Git, Redmine, SubVersion, GitHub Copilot
+- **資格**: 基本情報技術者, Oracle Java Silver
+- **経験領域**: D2C アプリ, 決済代行システム, 家電制御 IoT アプリ, 配送アプリ
+- **役割**: 開発メンバー, サブリーダー, OJT 担当, オフショアブリッジ（ベトナム）
+
+候補者を変更する場合は `RESUME` と `RESUME_SUMMARY` を編集してください。
+
 ## セットアップ
 
 ### 前提条件
